@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header.navbar.navbar-custom { 
+    background-color: black;
+} 
+
+#header.navbar.navbar-custom .navbar-brand, 
+#header.navbar.navbar-custom .navbar-text { 
+    color: darkred; 
+} 
+
+#header .container li a:hover {
+    margin-top: 3px;
+    text-decoration: underline;
+    
+}
+
+
+#banner .carousel-inner img {
+    max-height: 85vh;
+    object-fit: cover;
+}
+
+#carousel {
+    position: relative;
+}
+
+#myself img{
+    width: 180px;
+    height: 220px;
+}
+ 
+#myself div.card{
+    margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+}
