@@ -53,3 +53,20 @@ p{
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    background-color:darkslategrey;
+    padding: 3rem 0;
+}
+
+.footer_name{
+    color:white;
+    margin-bottom: 1.5remp;
+}
+
+.footer_container{
+    color: darkgrey;
+    padding-left: 2rem;
+    row-gap: 2rem
+}
+
