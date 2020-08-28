@@ -2,8 +2,8 @@ html {
     scroll-behavior: smooth;
 }
 
-h2, h5{
-    font-family: Fantasy;
+h2, h3, h5{
+    font-family: 'Metal Mania', cursive;
 }
 
 p{
