@@ -1,72 +1,73 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-h2, h3, h5{
-    font-family: 'Metal Mania', cursive;
+h2,
+h3,
+h5 {
+  font-family: "Metal Mania", cursive;
 }
 
-p{
-    font-family: Comic Sans MS;
+p {
+  font-family: Comic Sans MS;
 }
 
 #header .container li a:hover {
-    margin-top: 3px;
-    text-decoration: underline;
-    
+  margin-top: 3px;
+  text-decoration: underline;
 }
 
 #banner .carousel-inner img {
-    max-height: 85vh;
-    object-fit: cover;
+  max-height: 85vh;
+  object-fit: cover;
 }
 
 #carousel {
-    position: relative;
+  position: relative;
 }
 
-#group{
-    width: 80%  ;
+#group {
+  width: 80%;
 }
 
-#personal_image{
-    width: 50%;
+#personal_image {
+  width: 50%;
 }
 
-
-#myself div.card{
-    margin: auto;
-    width: 50%;
-    border: 3px solid black;
-    padding: 10px;
+#myself div.card {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
 }
 
-#academical .row .card-image, #experience .row .card-image {
-    display: flex;
-    justify-content: center;
+#academical .row .card-image,
+#experience .row .card-image {
+  display: flex;
+  justify-content: center;
 }
 
-#academical .row .card img, #experience .row .card img{
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
+#academical .row .card img,
+#experience .row .card img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {
-    background-color:darkslategrey;
-    padding: 3rem 0;
+  background-color: darkslategrey;
+  padding: 3rem 0;
 }
 
-.footer_name{
-    color:white;
-    margin-bottom: 1.5remp;
+.footer_name {
+  color: white;
+  margin-bottom: 1.5remp;
 }
 
-.footer_container{
-    color: darkgrey;
-    padding-left: 2rem;
-    row-gap: 2rem
+.footer_container {
+  color: darkgrey;
+  padding-left: 2rem;
+  row-gap: 2rem;
 }
-
